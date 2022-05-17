@@ -12,7 +12,7 @@
       <extension id="swabra" type="swabra">
         <parameters>
           <param name="swabra.enabled" value="swabra.before.build" />
-          <param name="swabra.verbose" value="true" />
+          <param name="swabra.verbose" value="false" />
         </parameters>
       </extension>
     </build-extensions>
