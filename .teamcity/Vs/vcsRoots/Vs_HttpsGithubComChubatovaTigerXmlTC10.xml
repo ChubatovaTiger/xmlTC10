@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="e55c04d3-9621-45b3-b039-65048f73fb49" type="jetbrains.git" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2021.1/project-config.xsd">
+  <name>https://github.com/ChubatovaTiger/xmlTC10</name>
+  <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
+  <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
+  <param name="authMethod" value="PASSWORD" />
+  <param name="branch" value="refs/heads/12e" />
+  <param name="ignoreKnownHosts" value="true" />
+  <param name="secure:password" value="credentialsJSON:6715f1ce-7bd3-4f57-8b61-05c0223f7ed3" />
+  <param name="submoduleCheckout" value="CHECKOUT" />
+  <param name="url" value="https://github.com/ChubatovaTiger/xmlTC10" />
+  <param name="useAlternates" value="AUTO" />
+  <param name="username" value="ChubatovaTiger" />
+  <param name="usernameStyle" value="USERID" />
+</vcs-root>
+
