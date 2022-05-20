@@ -14,7 +14,9 @@
       </runner>
     </build-runners>
     <vcs-settings>
-      <vcs-entry-ref root-id="Abc_HttpsGithubComChubatovaTigerChubatovaGradleTestsBackup" />
+      <vcs-entry-ref root-id="Abc_HttpsGithubComChubatovaTigerChubatovaGradleTestsBackup">
+        <checkout-rule rule="+:gradle =&gt; ." />
+      </vcs-entry-ref>
     </vcs-settings>
     <requirements />
     <build-triggers>
