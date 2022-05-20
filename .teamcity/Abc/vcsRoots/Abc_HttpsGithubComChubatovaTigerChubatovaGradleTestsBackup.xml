@@ -7,7 +7,6 @@
   <param name="branch" value="refs/heads/master" />
   <param name="ignoreKnownHosts" value="true" />
   <param name="submoduleCheckout" value="CHECKOUT" />
-  <param name="teamcity:branchSpec" value="refs/heads/split" />
   <param name="url" value="https://github.com/ChubatovaTiger/ChubatovaGradleTestsBackup" />
   <param name="useAlternates" value="USE_MIRRORS" />
   <param name="usernameStyle" value="USERID" />
