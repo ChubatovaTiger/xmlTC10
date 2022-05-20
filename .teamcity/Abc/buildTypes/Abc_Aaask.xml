@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="96dd0636-406c-4846-9d00-e9960b446c1c" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2021.1/project-config.xsd">
+  <name>aaask</name>
+  <description />
+  <settings>
+    <parameters />
+    <build-runners>
+      <runner id="RUNNER_1" name="" type="simpleRunner">
+        <parameters>
+          <param name="script.content" value="sh check.sh" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
+        </parameters>
+      </runner>
+    </build-runners>
+    <vcs-settings>
+      <vcs-entry-ref root-id="Abc_HttpsGithubComChubatovaTigerChubatovaGradleTestsBackup" />
+    </vcs-settings>
+    <requirements />
+    <build-triggers>
+      <build-trigger id="remoteRunOnBranch" type="remoteRunOnBranch">
+        <parameters>
+          <param name="branchy:jetbrains.git" value="pattern:jetbrains.git" />
+          <param name="pattern:jetbrains.git" value="refs/heads/remote-run/TEAMCITY_USERNAME/*" />
+        </parameters>
+      </build-trigger>
+    </build-triggers>
+    <cleanup />
+  </settings>
+</build-type>
+
