@@ -21,7 +21,7 @@
       <build-trigger id="remoteRunOnBranch" type="remoteRunOnBranch">
         <parameters>
           <param name="branchy:jetbrains.git" value="pattern:jetbrains.git" />
-          <param name="pattern:jetbrains.git" value="refs/heads/remote-run/TEAMCITY_USER/*" />
+          <param name="pattern:jetbrains.git" value="refs/heads/remote-run/TEAMCITY_USERNAME/*" />
         </parameters>
       </build-trigger>
     </build-triggers>
