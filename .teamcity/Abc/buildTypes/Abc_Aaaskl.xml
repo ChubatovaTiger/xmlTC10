@@ -16,6 +16,7 @@
     <vcs-settings>
       <vcs-entry-ref root-id="Abc_HttpsGithubComChubatovaTigerChubatovaGradleTestsBackup">
         <checkout-rule rule="+:gradle =&gt; ." />
+        <checkout-rule rule="+:src =&gt; src" />
       </vcs-entry-ref>
     </vcs-settings>
     <requirements />
